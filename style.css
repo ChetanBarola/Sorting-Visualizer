@@ -1,0 +1,58 @@
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+    /* background-color: black; */
+    background-image: url("pexels-jakub-novacek-924824.jpg");
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: underline; */
+    /* color:#fff; */
+    /* color: aquamarine; */
+
+}
+button {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: white; */
+    color: aquamarine;
+    border: 2px solid wheat;
+    background-color: black;
+
+}
+button:hover{
+    background-color: #4caf50;
+    color:wheat;
+}
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: #ffb6c1;
+
+    border: 1pt solid;
+    border: 3px solid #fff;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
