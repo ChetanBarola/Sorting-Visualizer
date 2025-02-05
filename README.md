@@ -37,7 +37,3 @@ Quick Sort is a divide and conquer algorithm that selects a pivot element and pa
 
 ### 5. Selection Sort
 Selection Sort is a simple sorting algorithm that repeatedly selects the minimum element from the unsorted portion of the array and places it at the beginning of the array.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
